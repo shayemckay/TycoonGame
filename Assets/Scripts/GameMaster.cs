@@ -17,6 +17,10 @@ public class GameMaster : MonoBehaviour {
     public static int ice;
     public static int sugar;
 
+    public static int lemonRecipe = 1;
+    public static int iceRecipe = 1;
+    public static int sugarRecipe = 1;
+
     private void Start()
     {
         cash = 1000;
